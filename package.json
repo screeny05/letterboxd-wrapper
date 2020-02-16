@@ -1,0 +1,19 @@
+{
+  "name": "letterboxd-mark-as-watched",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "author": "Sebastian Langer <sl@scn.cx>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "got": "^10.5.7",
+    "tough-cookie": "^3.0.1"
+  }
+}
